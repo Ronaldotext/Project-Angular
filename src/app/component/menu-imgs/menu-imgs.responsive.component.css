@@ -1,0 +1,9 @@
+@media screen and (min-width: 780px){
+    .menu-imgs{
+        max-width:952px;
+        width:40%;
+    }
+    .content__menu-list>ul>li>a>img{
+        width:13.625rem;
+}
+}

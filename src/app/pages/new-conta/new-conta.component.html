@@ -1,0 +1,65 @@
+<body>
+  <div class="container__menu-all">
+    <div class="card-container">
+      <div class="card__title">
+        <h1>Connect your Google account</h1>
+      </div>
+      <div class="card__name-user">
+        <span>Name<input type="text" id="inpu1" /></span>
+        <span>Username<input type="text" id="inpu1" /></span>
+      </div>
+      <div class="card__email-pass">
+        <div class="container__menu-email">
+          <span>Email</span>
+          <div class="content__menu-email">
+            <p class="img3"></p>
+
+            <input
+              type="email"
+              id="email"
+              placeholder="Email"
+              [(ngModel)]="email"
+              (input)="emailCharacter()"
+            />
+            <span *ngIf="mostrarError">Email no valid</span>
+          </div>
+        </div>
+        <div class="container__menu-password">
+          <span>Password </span>
+
+          <div class="content__menu-password">
+            <p class="img2" (click)="toggleMostrarSenha()"></p>
+            <input
+              [type]="mostrarSenha ? 'text' : 'password'"
+              [(ngModel)]="senha"
+              [(ngModel)]="senhaValid"
+              id="Senha"
+              placeholder="6+ characters"
+              (input)="senhaCharacterHard()"
+            />
+            <span *ngIf="!mostrarError2">Senha no valid</span>
+          </div>
+        </div>
+      </div>
+      <div class="card__checkbox">
+        <input type="checkbox" id="checkbox" /><label for="checkbox">
+          agree with Dribbble's Terms of Service, Privacy Policy, and default
+          Notification Settings.</label
+        >
+      </div>
+      <div class="card__button">
+        <a [routerLink]="['']">
+          <button [disabled]="!email.match(regex) || !email.includes('@')">
+            Create Account
+          </button></a
+        >
+      </div>
+      <div class="card__create-acc">
+        <span
+          >Already have an account?
+          <a [routerLink]="['']"> Sign In</a>
+        </span>
+      </div>
+    </div>
+  </div>
+</body>

@@ -1,0 +1,5 @@
+@media screen and (max-width:779px){
+    .container__menu-description{
+        display:none;
+    }
+}

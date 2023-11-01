@@ -1,0 +1,51 @@
+<div class="container__menu-login">
+  <div class="content__menu-login">
+    <div class="line-wrapper">
+      <div class="line"></div>
+    </div>
+    <div class="content__menu-title">
+      <h1>Já tem cadastro?</h1>
+      <p>Faça seu login e make the change._</p>
+    </div>
+    <div class="content__menu-input">
+      <div class="content__menu-img">
+        <p class="img"></p>
+        <input
+          type="email"
+          id="email"
+          placeholder="Endereço de e-mail"
+          [(ngModel)]="email"
+          (input)="emailCharacter()"
+        />
+        <span *ngIf="mostrarError">No valid</span>
+      </div>
+
+      <div class="content__menu-img2">
+        <p class="img2" (click)="toggleMostrarSenha()"></p>
+        <input
+          [type]="mostrarSenha ? 'text' : 'password'"
+          [(ngModel)]="senha"
+          id="Senha"
+          placeholder="Senha"
+        />
+      </div>
+
+      <div class="content__menu-btn">
+        <a [routerLink]="['dashboard']"
+          ><button [disabled]="!email.match(regex) || !email.includes('@')">
+            entrar
+          </button></a
+        >
+      </div>
+
+      <div class="content__menu-SenCriar">
+        <div class="content__menu-senhaLink">
+          <a [routerLink]="['recove/password']">Esqueci minha senha.</a>
+        </div>
+        <div class="content__menu-contaLink">
+          <a [routerLink]="['new/account']">Criar conta</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(16, 15, 45, 1) 29%,
+    rgba(12, 12, 99, 1) 52%,
+    rgba(1, 50, 59, 1) 91%
+  );
+  height: 100vh;
+}
+.container__menu-all {
+  display: flex;
+  justify-content: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  color: white;
+}
+
+.card__title {
+  font-size: 20px;
+  text-align: center;
+}
+
+.card__name-user {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 23px;
+}
+.card__name-user > span {
+  font-size: 18px;
+  margin: 2px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 9px;
+  justify-content: center;
+  width: 50%;
+}
+
+.card__name-user > span > input {
+  background-color: #2f2744;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+}
+.card__name-user > span > input:focus {
+  outline: none;
+  color: white;
+  background-color: rgb(68, 65, 224);
+}
+
+/*final input 1*/
+
+.card__email-pass {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.card__email-pass > span {
+  display: flex;
+  flex-direction: column;
+  margin: 2px;
+
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+/*email*/
+.img3::before {
+  content: "";
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/assets/email.svg");
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+.content__menu-email {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.content__menu-email > p {
+  display: flex;
+  align-items: center;
+}
+#email {
+  background-color: #2f2744;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+}
+#email:focus {
+  outline: none;
+  color: white;
+  background-color: rgb(68, 65, 224);
+}
+
+/* password*/
+
+.img2::before {
+  content: "";
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/assets/key.svg");
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.content__menu-password {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.content__menu-password > p {
+  display: flex;
+  align-items: center;
+}
+
+#Senha {
+  background-color: #2f2744;
+  color: white;
+
+  border: none;
+  padding: 10px;
+  width: 100%;
+}
+#Senha:focus {
+  outline: none;
+  color: white;
+  background-color: rgb(68, 65, 224);
+}
+
+.card__checkbox {
+  text-align: justify;
+
+  margin-bottom: 25px;
+  font-size: 17px;
+}
+
+.card__checkbox > p > input {
+  zoom: 1.4;
+}
+
+.card__button {
+  width: 100%;
+
+  margin-bottom: 15px;
+}
+
+.card__button > a > button {
+  padding: 18px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: #0d0c22;
+  border: 1px solid rgba(7, 1, 1, 0.5);
+  cursor: pointer;
+  font-weight: bolder;
+  color: white;
+}
+
+.card__button > button:hover {
+  background-color: gray;
+
+  color: black;
+}
+.card__create-acc > span > a {
+  color: black;
+}
+

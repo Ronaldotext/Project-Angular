@@ -1,0 +1,14 @@
+<div class="container__menu-bar">
+ <a [routerLink]="['']"><img [src]="'assets/waypoint.svg'" alt="" id="photo"></a> 
+  <div class="menu-container" [ngClass]="{'menu-open': menuOpen}" (click)="toggleMenu()">
+    <img [src]="'assets/menu.svg'" alt="" id="photo2" class="menu-button">
+    <div class="content__menu-toggle">
+      <ul class="menu-list" [ngClass]="{'menu-open': menuList}">
+        <li><a [routerLink]="['']"(click)="scrollToSection('')">Inicio</a></li>
+        <li><a [routerLink]="['']"(click)="scrollToSection('catalogo')">Catálogo</a></li>
+        <li><a [routerLink]="['']"(click)="scrollToSection('description')">description</a></li>
+        <li><a [routerLink]="['']"(click)="scrollToSection('footer')">Footer</a></li>
+      </ul>
+    </div>
+  </div>
+</div>

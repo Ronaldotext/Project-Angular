@@ -1,0 +1,19 @@
+@media (max-width: 779px){
+  .container__menu-login{
+      margin-top: 25px;
+  }
+}
+
+@media (min-width:780px){
+  .container__menu-login{
+      max-width:none;
+      height:100%;
+
+  }.content__menu-login{
+    width: 30%;
+
+   
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,231 @@
+.content__menu-footer{
+    background-color:black;
+
+    display:flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content:center;
+}
+
+.content__menu-Links{
+    display: flex;
+    flex-direction: column;
+
+}
+.content__menu-imgsApp{
+    margin-top:4rem;
+}
+.content__menu-Title-imgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.content__menu-Title{
+    margin-bottom: 2rem;
+
+}
+
+.content__menu-img{
+
+    margin-bottom: 1.433rem;
+}
+
+
+
+
+
+
+.content__menu-GooglePlay{
+    display: flex;
+
+}
+.content__menu-GooglePlay>a{
+    display: flex;
+   background-color: white;
+    text-decoration:none;
+
+    width: 80%;
+    padding: 15px 49px;
+    border-radius: 30px;
+     transition: box-shadow 0.5s;
+
+}
+.content__menu-GooglePlay>a:hover{
+       -webkit-box-shadow: -6px 8px 56px 12px rgba(134,71,173,0.69);
+-moz-box-shadow: -6px 8px 56px 12px rgba(134,71,173,0.69);
+box-shadow: -6px 8px 56px 12px rgba(134,71,173,0.69);
+}
+.content__menu-GooglePlay>a::before{
+    content:"";
+    display: inline-block;
+    height: 3rem;
+    width:3rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/assets/playgoogle.svg');
+    margin-right:.5rem ;
+}
+
+
+
+
+.content__menu-img2{
+
+    margin-bottom: 4rem;
+}
+
+
+
+.content__menu-AppStore{
+    display: flex;
+
+}
+.content__menu-AppStore>a{
+    display: flex;
+   background-color: white;
+    text-decoration:none;
+
+    width: 80%;
+    padding: 15px 56px;
+    border-radius: 30px;
+    transition: box-shadow 0.5s;
+}
+.content__menu-AppStore>a::before{
+        content:"";
+        display: inline-block;
+        height: 3rem;
+        width:3rem;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-image: url('/assets/apple.svg');
+        margin-right:.5rem ;
+
+    }
+.content__menu-AppStore>a:hover{
+    -webkit-box-shadow: -6px 8px 56px 12px rgba(134,71,173,0.69);
+    -moz-box-shadow: -6px 8px 56px 12px rgba(134,71,173,0.69);
+    box-shadow: -6px 8px 56px 12px rgba(134,71,173,0.69);
+}
+
+.gray{
+    color:gray;
+    display: flex;
+    flex-direction: column;
+}
+.bolder{
+    color:black;
+    font-family:'Segoe UI';
+    font-weight:bolder;
+}
+
+
+.content__menu-Right>h2{
+    color:white;
+    margin-bottom:15px;
+}
+.content__menu-Right{
+    display: flex;
+    flex-direction: column;
+
+}
+.content__menu-Right>a{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    color:gray;
+    text-decoration:none;
+}
+.content__menu-Right>a:hover{
+    text-decoration:underline;
+
+}
+.content__menu-Left{
+    display: flex;
+    flex-direction: column;
+  
+}
+.content__menu-Left>h2{
+  margin-bottom: 15px;
+}
+.content__menu-Left>a{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    color:gray;
+    text-decoration:none;
+    margin-bottom: 5px;
+}
+.content__menu-Left>a:hover{
+    text-decoration:underline;
+
+}
+.content__menu-Left>h2{
+    text-align: center;
+}
+.content__menu-hr{
+    width: 80%;
+    margin-bottom: 2rem;
+}
+.content__menu-img-footer{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+
+}
+.content__menu-img-footer>img{
+    width: 70%;
+    max-height: 129px;
+
+}
+
+
+
+.content__menu-imgSocial{
+
+    width:100%;
+}
+.content__menu-list{
+    display:flex;
+
+
+}
+.List-footer{
+    display:flex;
+    justify-content: center;
+}
+.List-footer>li{
+    list-style:none;
+    margin-right: 15px;
+
+}
+.List-footer>li>a>img{
+    display:flex;
+    min-height:40px;
+    transition: transform 0.5s ease;
+}
+.List-footer>li>a>img:hover{
+  transform:translateY(-20px)
+}
+
+@media screen and (min-width:780px){
+    .content__menu-app{
+        display:flex;
+    }
+    .content__menu-img{
+        margin-right: 0.5rem;
+    }
+    .content__menu-Links{
+        display: flex;
+        flex-direction:row;
+        margin-bottom:1rem;
+    }
+    .content__menu-Right{
+        margin-right: 3.3rem;
+    }
+}
+

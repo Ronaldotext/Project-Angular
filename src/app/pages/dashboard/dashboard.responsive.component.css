@@ -1,0 +1,17 @@
+@media (max-width:780px){
+  .container__menu-all{
+    flex-direction:column;
+    border:none;
+  }
+  .container__menu-user{
+    width:100%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+  }
+  .content__menu-Text-User>h1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+}

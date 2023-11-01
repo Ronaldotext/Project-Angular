@@ -1,0 +1,122 @@
+.container__menu-login {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.content__menu-login {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  width: 70%;
+  height: 90vh;
+
+  justify-content: center;
+}
+.content__menu-title > h1 {
+  font-family: "Segoe UI";
+  margin-bottom: 25px;
+}
+.content__menu-title > p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.content__menu-img {
+  display: flex;
+  margin-bottom: 15px;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-bottom: 1px solid gray;
+}
+
+#email {
+  width: 100%;
+  background-color: #1e192c;
+  border-top: none;
+
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  color: white;
+}
+#email:focus {
+  outline: none;
+  color: white;
+  background-color: rgb(68, 65, 224);
+}
+
+.content__menu-btn {
+  border: 1px solid rgb(134, 71, 173);
+  padding: 14px;
+  border-radius: 14px;
+  margin-bottom: 50px;
+}
+.content__menu-btn > a > button {
+  width: 100%;
+
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: rgb(134, 71, 173);
+  color: rgb(255, 255, 255);
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+  border-radius: 12px;
+}
+.content__menu-btn > a > button:hover {
+  -webkit-box-shadow: -6px 8px 56px 12px rgba(134, 71, 173, 0.69);
+  -moz-box-shadow: -6px 8px 56px 12px rgba(134, 71, 173, 0.69);
+  box-shadow: -6px 8px 56px 12px rgba(134, 71, 173, 0.69);
+}
+.content__menu-SenCriar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__menu-senhaLink > a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(229, 224, 68);
+}
+.content__menu-senhaLink > a:hover {
+  text-decoration: underline;
+}
+.content__menu-contaLink > a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(35, 221, 122);
+}
+.content__menu-contaLink > a:hover {
+  text-decoration: underline;
+}
+
+.line-wrapper {
+  padding: 0px;
+  margin: 0px 0px 2rem;
+  width: 100%;
+  display: flex;
+  -webkit-box-pack: start;
+  justify-content: start;
+}
+.line {
+  height: 0.5rem;
+  background: linear-gradient(
+    270deg,
+    rgb(50, 33, 78) -3.55%,
+    rgb(135, 71, 175) 100.21%
+  );
+  width: 100%;
+  max-width: 6rem;
+  border-radius: 1rem;
+}

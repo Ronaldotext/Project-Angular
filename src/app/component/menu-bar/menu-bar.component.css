@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container__menu-bar {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+
+  border-bottom: 1px solid black;
+
+  z-index: 999;
+  width: 100%;
+  background: rgb(128, 25, 185);
+  background: linear-gradient(
+    166deg,
+    rgba(128, 25, 185, 1) 1%,
+    rgba(39, 36, 157, 1) 59%,
+    rgba(0, 0, 0, 1) 91%
+  );
+}
+
+#photo {
+  height: 60px;
+  width: 110px;
+
+  margin: 0;
+  margin-right: auto;
+}
+#photo2 {
+  height: 60px;
+  width: 110px;
+
+  margin: 0;
+  margin-right: auto;
+  cursor: pointer;
+}
+.container__menu-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-list > li {
+  margin-right: 15px;
+  list-style: none;
+}
+.menu-list > li > a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.5s;
+  cursor: pointer;
+}
+.menu-list > li > a:hover {
+  text-decoration: underline;
+  color: red;
+}

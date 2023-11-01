@@ -1,0 +1,5 @@
+@media (max-width: 779px) {
+  .container__menu-title{
+      display:none;
+  }
+}

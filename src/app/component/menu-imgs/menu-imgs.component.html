@@ -1,0 +1,19 @@
+<div class="container__menu-imgs" id="catalogo">
+    <div class="content__menu-imgs">
+      <div class="content__menu-button">
+        <img [src]="'assets/arrowleft.svg'" class="prev-button" *ngIf="buttonVisible2" (click)="toggleMostrarMenos()">
+      </div>
+      <div class="content__menu-list">
+        <ul class="menu-imgs">
+          <li *ngFor="let imagen of mostrarImganes.slice(currentIndex, currentIndex + 3); let i =index">
+            <a  [routerLink]="['content',imagen.id]">
+              <img [src]="imagen.photoCover" alt=""></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content__menu-button2">
+        <img [src]="'assets/arrowright.svg'" class="next-button" *ngIf=" buttonVisible" (click)="toggleMostrarMas()">
+      </div>
+    </div>
+  </div>
+  

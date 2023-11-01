@@ -1,0 +1,21 @@
+
+
+.container__menu-btn{
+  display: flex;
+  justify-content: end;
+
+}
+.content__menu-btn{
+  position: fixed;
+  width:4%;
+}
+.content__menu-btn>button>img{
+  cursor:pointer;
+}
+
+.content__menu-btn>button{
+  width:100%;
+  transform: rotate(91deg);
+}
+
+

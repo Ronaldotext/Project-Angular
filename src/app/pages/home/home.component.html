@@ -1,0 +1,38 @@
+<div class="container__page">
+  <div class="content__loginTitle">
+    <app-menu-title
+      class="title"
+      TextoH1="A plataforma para Você aprender com experts,dominar as principais 
+        tecnologias e entrar mais rápido mas empresas main desejadas."
+    >
+    </app-menu-title>
+    <app-menu-login class="login"></app-menu-login>
+  </div>
+</div>
+<div class="container__menu-btn">
+  <div class="content__menu-btn">
+    <button *ngIf="buttonVisible2" (click)="topHeader()">
+      <img [src]="'assets/arrowleft.svg'" alt="" />
+    </button>
+  </div>
+</div>
+<div class="container__menu-imgs">
+  <div class="content__menu-img">
+    <app-menu-imgs
+      Id="1"
+      photoCover="https://w0.peakpx.com/wallpaper/446/435/HD-wallpaper-captain-america-2020-captain-america-superheroes-artwork-artist.jpg"
+    ></app-menu-imgs>
+  </div>
+</div>
+<div class="container__menu-description">
+  <div class="content__menu-description">
+    <app-menu-description
+      Texto="A plataforma para Você aprender com experts,dominar as principais tecnologias e entrar mais rápido mas empresas main desejadas."
+    ></app-menu-description>
+  </div>
+</div>
+<div class="container__menu-footer">
+  <div class="content__menu-footer">
+    <app-menu-footer photoFooter="./assets/user-testing.svg"></app-menu-footer>
+  </div>
+</div>
