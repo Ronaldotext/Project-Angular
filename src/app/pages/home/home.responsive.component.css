@@ -1,35 +1,28 @@
-
-@media screen and (min-width: 780px){
-  .container__page{
-      
-      display:flex;
-      
-      margin-top: 45px;
-      background-color: #1e192c;
+@media screen and (min-width: 780px) {
+  .container__page {
+    display: flex;
+    margin-top: 45px;
+    background-color: #1e192c;
   }
-  .content__loginTitle{
-      display:flex;
-      justify-content:center;
-     
-  }
-  
-  .title{
-      display:flex;
-      justify-content: center;
-      width:49%;
+  .content__loginTitle {
+    display: flex;
+    justify-content: center;
   }
 
-  
+  .title {
+    display: flex;
+    justify-content: center;
+    width: 49%;
+  }
 }
-@media (max-width:779px){
-  .content__menu-img{
-      display:none;
-  }
-  .content-loginTitle{
-      margin-bottom: 10rem;
-      
-   }
-   .container__menu-btn{
+@media (max-width: 779px) {
+  .content__menu-img {
     display: none;
-   }
+  }
+  .content-loginTitle {
+    margin-bottom: 10rem;
+  }
+  .container__menu-btn {
+    display: none;
+  }
 }

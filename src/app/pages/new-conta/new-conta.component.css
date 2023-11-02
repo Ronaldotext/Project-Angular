@@ -66,8 +66,6 @@ body {
   background-color: rgb(68, 65, 224);
 }
 
-/*final input 1*/
-
 .card__email-pass {
   display: flex;
   flex-direction: column;
@@ -78,11 +76,10 @@ body {
   display: flex;
   flex-direction: column;
   margin: 2px;
-
   font-size: 18px;
   margin-bottom: 25px;
 }
-/*email*/
+
 .img3::before {
   content: "";
   display: inline-block;
@@ -115,7 +112,6 @@ body {
   background-color: rgb(68, 65, 224);
 }
 
-/* password*/
 
 .img2::before {
   content: "";
@@ -141,7 +137,6 @@ body {
 #Senha {
   background-color: #2f2744;
   color: white;
-
   border: none;
   padding: 10px;
   width: 100%;
@@ -154,7 +149,6 @@ body {
 
 .card__checkbox {
   text-align: justify;
-
   margin-bottom: 25px;
   font-size: 17px;
 }
@@ -165,7 +159,6 @@ body {
 
 .card__button {
   width: 100%;
-
   margin-bottom: 15px;
 }
 
@@ -183,10 +176,8 @@ body {
 
 .card__button > button:hover {
   background-color: gray;
-
   color: black;
 }
 .card__create-acc > span > a {
   color: black;
 }
-

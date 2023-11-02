@@ -9,7 +9,6 @@
   color: #fff;
   width: 70%;
   height: 90vh;
-
   justify-content: center;
 }
 .content__menu-title > h1 {
@@ -29,7 +28,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   border-bottom: 1px solid gray;
 }
 
@@ -37,7 +35,6 @@
   width: 100%;
   background-color: #1e192c;
   border-top: none;
-
   border-left: none;
   border-right: none;
   border-bottom: 1px solid gray;
@@ -58,7 +55,6 @@
 }
 .content__menu-btn > a > button {
   width: 100%;
-
   color: white;
   padding: 10px 20px;
   border: none;

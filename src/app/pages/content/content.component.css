@@ -12,20 +12,21 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-
   width: 100%;
   align-items: center;
 }
 .content__description-Title {
-  border: 1px solid red;
+  border: 1px solid white;
   width: 80%;
-  height: auto;
+  height:50vh;
+  background: rgba(112, 109, 109, 0.4);
+  opacity: 1;
+
 }
 .content__title > h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-
   font-family: "Segoe UI";
   font-weight: 600;
 }

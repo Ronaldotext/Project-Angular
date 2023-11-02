@@ -1,0 +1,18 @@
+
+@media (min-width:780px){
+  .content__menu-app{
+      display:flex;
+  }
+  .content__menu-img{
+      margin-right: 0.5rem;
+  }
+  .content__menu-Links{
+      display: flex;
+      flex-direction:row;
+      margin-bottom:1rem;
+      justify-content: center;
+  }
+  .content__menu-Right{
+      margin-right: 3.3rem;
+  }
+}

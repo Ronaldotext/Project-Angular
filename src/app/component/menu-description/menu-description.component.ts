@@ -13,7 +13,7 @@ export class MenuDescriptionComponent implements OnInit {
   "https://t.ctcdn.com.br/EBMq05AUHBFLgVcSW40FU8ZQBPY=/354x3095:5816x6170/640x360/smart/i526811.jpeg",
   "https://proxy.olhardigital.com.br/wp-content/uploads/2023/05/Homem-de-Ferro-voando.jpg",
   "https://t.ctcdn.com.br/5bU4_4Zvdqn2gkI3z-VYo_JhEHQ=/1245x700/smart/i632776.jpeg",
-  "https://cdn0-production-images-kly.akamaized.net/LNMxjS_rbnooJdMwlTVvSxX_y14=/800x450/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/946748/original/029523200_1438762512-iron_man_games.jpg",
+  "https://podpop.com.br/PodPOP/wp-content/uploads/2018/02/maxresdefault-752x440.jpg",
   "https://images4.alphacoders.com/132/thumb-1920-1329876.png"]
   currentImageIndex=0;
   currentImage:string="";
@@ -28,7 +28,7 @@ export class MenuDescriptionComponent implements OnInit {
     this.currentImage=this.images[this.currentImageIndex];
     setInterval(()=>{
       this.changeImage();
-    },3000)
+    },4000)
   }
   changeImage(){
     this.currentImageIndex=(this.currentImageIndex+1)% this.images.length;

@@ -18,13 +18,11 @@
   justify-content: center;
   align-items: center;
   margin-right: auto;
-
   width: 46%;
 }
 .content__menu-img > img {
   width: 86%;
   height: 281px;
-
   display: flex;
   justify-content: center;
   border-radius: 0px 161px 149px 0px;
@@ -42,7 +40,8 @@
   border-radius: 0px 93px 56px 48px;
   -moz-border-radius: 0px 93px 56px 48px;
   -webkit-border-radius: 0px 93px 56px 48px;
-  border: 1px solid #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity:1;
 }
 .content__menu-title:hover {
   -webkit-box-shadow: -6px 8px 56px 12px rgba(134, 71, 173, 0.69);

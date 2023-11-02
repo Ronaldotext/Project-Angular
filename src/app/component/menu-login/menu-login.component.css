@@ -6,7 +6,6 @@
 .content__menu-login {
   display: flex;
   flex-direction: column;
-
   width: 100%;
   color: #fff;
   height: 100%;
@@ -84,7 +83,6 @@
   width: 100%;
   background-color: #1e192c;
   color: white;
-
   border-top: none;
   border-left: none;
   border-right: none;
@@ -98,21 +96,20 @@
 }
 
 .content__menu-btn {
-  border: 1px solid rgb(134, 71, 173);
+  border: 1px solid rgb(175 34 170);
   padding: 14px;
   border-radius: 14px;
   margin-bottom: 50px;
 }
 .content__menu-btn > a > button {
   width: 100%;
-
   color: white;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
   font-weight: bold;
   text-transform: uppercase;
-  background: rgb(134, 71, 173);
+  background: rgb(175 34 170);
   color: rgb(255, 255, 255);
   position: relative;
   cursor: pointer;
@@ -162,7 +159,7 @@
   background: linear-gradient(
     270deg,
     rgb(50, 33, 78) -3.55%,
-    rgb(135, 71, 175) 100.21%
+    rgb(175 34 170) 100.21%
   );
   width: 100%;
   max-width: 6rem;

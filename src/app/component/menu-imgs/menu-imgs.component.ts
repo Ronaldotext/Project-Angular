@@ -13,7 +13,7 @@ export class MenuImgsComponent implements OnInit {
   @Input()
   mostrarImganes = mostrarImganes;
 
-  imagesPerGroup = 2;
+  imagesPerGroup = 3;
   buttonVisible = false;
   currentIndex = 0;
   buttonVisible2 = false;

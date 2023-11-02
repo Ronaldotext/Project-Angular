@@ -1,14 +1,31 @@
-<div class="container__menu-bar">
- <a [routerLink]="['']"><img [src]="'assets/waypoint.svg'" alt="" id="photo"></a> 
+<div class="container__menu-bar" >
+ <a [routerLink]="['']"><img [src]="'assets/waypoint.svg'" alt="logoPage" id="photo"></a>
   <div class="menu-container" [ngClass]="{'menu-open': menuOpen}" (click)="toggleMenu()">
-    <img [src]="'assets/menu.svg'" alt="" id="photo2" class="menu-button">
-    <div class="content__menu-toggle">
-      <ul class="menu-list" [ngClass]="{'menu-open': menuList}">
-        <li><a [routerLink]="['']"(click)="scrollToSection('')">Inicio</a></li>
+    <img [src]="'assets/menu.svg'" alt="" id="photo2" class="menu-button" >
+    <div class="content__list">
+      <ul class="menu-list1" [ngStyle]="listaVisible?{display:'flex'}:{display:'none'}">
+        <li> <a [routerLink]="'/new/account'">
+          <span class="spanLeft">New</span>
+          <span>Account</span></a>
+        </li>
+        <li> <a [routerLink]="['recove/password']">
+          <span class="spanLeft">New</span>
+          <span>Password</span>
+        </a></li>
+        <li><a [routerLink]="['']">Home</a></li>
+      </ul>
+    </div>
+    </div>
+    
+    <div class="content__list2" id="inicio">
+      <ul class="menu-list">
+        <li><a [routerLink]="['']"(click)="scrollToSection('inicio')">Inicio</a></li>
         <li><a [routerLink]="['']"(click)="scrollToSection('catalogo')">Catálogo</a></li>
         <li><a [routerLink]="['']"(click)="scrollToSection('description')">description</a></li>
         <li><a [routerLink]="['']"(click)="scrollToSection('footer')">Footer</a></li>
       </ul>
     </div>
+  
   </div>
-</div>
+
+
